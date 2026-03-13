@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untuk Kamu</title>
+<style>
+
+body{
+  background:pink;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  font-family:Arial;
+  text-align:center;
+}
+
+#kotak{
+  font-size:70px;
+  cursor:pointer;
+}
+
+#surat{
+  display:none;
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  width:330px;
+  box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+.loveText{
+  font-size:30px;
+  margin-top:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="kotak" onclick="buka()">
+📩
+<div class="loveText">LOV❤️</div>
+</div>
+
+<div id="surat">
+<h2>Untuk Kamu</h2>
+<p>
+Kamu lagi cape ya? maaf ya aku kadang suka kurang ngertiin kamu suka buat kamu tambah capee.<br><br>
+
+Semangattt yaaaa adaaaa akuuu disiniiii yang selalu dukung kamuuu selalu sayangg sama kamuu selaluu ngabarin kamuu walaupun kadang aku sedihhh karnaaaa sikap kamu kadang suka bedaaa tapi aku berusaha lebih baik lagi buat ngertiinkamu.<br><br>
+
+Kadang ga bisa jadi pendengar yang baik jadi rumah nyaman buat kamuu maaf ya aku selalu berusaha jadi yang terbaik buat kamuu.<br><br>
+
+Sayang aku terus yaa.<br>
+<b>Love you forever ❤️</b>
+</p>
+</div>
+
+<script>
+function buka(){
+document.getElementById("kotak").style.display="none";
+document.getElementById("surat").style.display="block";
+}
+</script>
+
+</body>
+</html>
